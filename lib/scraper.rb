@@ -5,6 +5,10 @@ require_relative './course.rb'
 
 class Scraper
   
+  def get_page
+    
+  end
+  
   def print_courses
     self.make_courses
     Course.all.each do |course|
